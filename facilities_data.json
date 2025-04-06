@@ -1,0 +1,122 @@
+{
+    "Bellmont Hall 406": {
+        "link": "https://www.utrecsports.org/facilities/facility/bellmont-hall",
+        "Mon-Thu": "6a - 11p",
+        "Fri": "6a - 8p",
+        "Sat": "10a - 6p",
+        "Sun": "Noon - 6p",
+        "General Info": [
+            "Rec Sports manages a variety of recreation spaces within Bellmont Hall. Access to these spaces is restricted to current UT students and individuals with a current Rec Sports membershipor Day Pass: https://www.utrecsports.org/memberships/day-passes . Note: Bellmont Hall requires a UT ID card for access on weekends and after 7 pm on weekdays. This means that only currently enrolled students and faculty/staff members with an active Rec Sports membership may access Bellmont Hall during these times. While Rec Sports operates recreation spaces within Bellmont Hall, Rec Sports does not have oversight of overall facility access. 2109 San Jacinto Blvd. Austin, Texas 78712 View Map: https://maps.app.goo.gl/apyEHnBp1wshQBRC8  Parking Information: https://www.utrecsports.org/facilities/parking  Facility hours vary based on the academic calendar, University holidays, and break periods. View Facility Hours: https://www.utrecsports.org/hours  Bellmont Hall spaces offer:"
+        ],
+        "Activities": [
+            "Cardiovascular Training",
+            "Dance",
+            "Martial Arts",
+            "Weight Training",
+            "Volleyball",
+            "Indoor Soccer",
+            "Dodgeball",
+            "Badminton"
+        ],
+        "Features": [
+            "BEL 304: Women\u2019s Locker Room (includes dry sauna and showers)",
+            "BEL 332: Men\u2019s Locker Room (includes dry sauna and showers)",
+            "BEL 348: Multipurpose Room (volleyball, badminton, group exercise)",
+            "BEL 402: Dance Studio",
+            "BEL 406: Weight/Cardio Room",
+            "BEL 502A: Dance Studio",
+            "BEL 608B: Multipurpose Room (fencing, wrestling)",
+            "BEL 628: Multipurpose Room (indoor soccer, dodgeball)",
+            "BEL 904: Martial Arts Room"
+        ],
+        "Today 's Hours": "12p - 6p"
+    },
+    "Gregory Gym": {
+        "link": "https://www.utrecsports.org/facilities/facility/gregory-gym",
+        "Mon-Thu": "6a - 11:59p",
+        "Fri": "6a - 10p",
+        "Sat": "8a - 10p",
+        "Sun": "10a - 11:59p",
+        "General Info": [
+            "Access to this facility is restricted to current UT students and individuals with a current Rec Sports membershipor Day Pass: https://www.utrecsports.org/memberships/day-passes . 2101 Speedway Austin, Texas 78712 View Map: https://maps.app.goo.gl/W7UAdc1B78AoSby56  Parking Information: https://www.utrecsports.org/facilities/parking  Facility hours vary based on the academic calendar, University holidays, and break periods. View Facility Hours: https://www.utrecsports.org/hours  Gregory Gym Offers: Gregory Gym Features:"
+        ],
+        "Activities": [
+            "Badminton",
+            "Basketball",
+            "Cardiovascular Training",
+            "Fitness Classes",
+            "Jogging",
+            "Handball",
+            "Racquetball",
+            "Rock Climbing",
+            "Sauna",
+            "Squash",
+            "Steam Room",
+            "Table Tennis",
+            "Volleyball",
+            "Walking",
+            "Wallyball",
+            "Weight Training"
+        ],
+        "Features": [
+            "7 basketball or 9 volleyball courts",
+            "1/7th-mile indoor jogging track",
+            "7 handball/racquetball/wallyball courts",
+            "2 international-size squash courts",
+            "Weight training/cardio room",
+            "Faculty/staff weight training/cardio room",
+            "Climbing Wall",
+            "Multi-purpose/dance rooms",
+            "Functional training spaces",
+            "Outdoor Center",
+            "Steam rooms and saunas",
+            "Faculty/staff locker room",
+            "Classroom",
+            "Exercise studio",
+            "Group cycling studio",
+            "Personal training studio",
+            "Intramural Wall of Fame"
+        ],
+        "Today 's Hours": "10a - 11:59p"
+    },
+    "Recreational Sports Center": {
+        "link": "https://www.utrecsports.org/facilities/facility/recreational-sports-center",
+        "Mon-Thu": "6a - 11p",
+        "Fri": "6a - 8p",
+        "Sat": "8a - 8p",
+        "Sun": "10a - 11p",
+        "General Info": [
+            "Access to this facility is restricted to current UT students and individuals with a current Rec Sports membershipor Day Pass: https://www.utrecsports.org/memberships/day-passes . 2001 San Jacinto Blvd. Austin, Texas 78712 View Map: https://maps.app.goo.gl/oaTTS518tFYmaYe49  Parking Information: https://www.utrecsports.org/facilities/parking  Facility hours vary based on the academic calendar, University holidays, and break periods. View Facility Hours: https://www.utrecsports.org/hours  The Recreational Sports Center Offers: The Recreational Sports Center Features:"
+        ],
+        "Activities": [
+            "Badminton",
+            "Basketball",
+            "Cardiovascular Training",
+            "Fitness Classes",
+            "Handball",
+            "Martial Arts",
+            "Pickleball",
+            "Racquetball",
+            "Squash",
+            "Table Tennis",
+            "Volleyball",
+            "Wallyball",
+            "Weight Training"
+        ],
+        "Features": [
+            "3 basketball courts or 6 volleyball courts",
+            "7 handball/racquetball/wallyball courts",
+            "Weight training/cardio room",
+            "Multi-purpose/dance rooms",
+            "F45 Training Studio",
+            "Personal training studio",
+            "Martial arts room",
+            "Lounge areas",
+            "Flat screen TV",
+            "2 squash courts",
+            "Functional training spaces",
+            "Massage chairs"
+        ],
+        "Today 's Hours": "10a - 11p"
+    }
+}
