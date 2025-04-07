@@ -2,7 +2,7 @@ import requests
 
 def run_scrape():
     try:
-        response = requests.post("https://gym-api.onrender.com/scrape")
+        response = requests.post("https://recsports-scraping.onrender.com/scrape")
         if response.status_code == 200:
             print("Scraping successful!")
         else:

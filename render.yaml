@@ -12,9 +12,7 @@ services:
 
   - type: cron
     name: daily-scraper
-    schedule: "0 9 * * *" # Every day at 9am UTC
-    plan: free
+    schedule: "40 20 * * *"  # Every day at 8:40 PM UTC (3:40 PM Texas Time)    plan: free
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python daily_scraper.py"
-
