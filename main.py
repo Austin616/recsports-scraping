@@ -10,6 +10,7 @@ CORS(app)
 facilities_data = {}
 
 # Initialize the data manually
+
 def initialize_data():
     global facilities_data
     facilities_data = scrape_all_facilities()

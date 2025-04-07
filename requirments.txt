@@ -1,0 +1,9 @@
+Flask==3.1.0
+Flask-Cors==5.0.0
+Flask-Login==0.6.3
+Flask-PyMongo==3.0.1
+beautifulsoup4==4.13.3
+bs4==0.0.2
+requests==2.32.3
+pymongo==4.11.1
+python-dotenv==1.0.1
