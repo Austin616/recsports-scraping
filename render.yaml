@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: gym-api
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: FLASK_ENV
+        value: production
+
+  - type: cron
+    name: daily-scraper
+    schedule: "0 9 * * *" # Every day at 9am UTC
+    plan: free
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python daily_scraper.py"
+
