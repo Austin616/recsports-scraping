@@ -1,22 +1,18 @@
-from flask import Flask, request, jsonify
+from flask import Flask, jsonify
 from flask_cors import CORS
-import json
 from scraper import scrape_all_facilities
+import os
 
 app = Flask(__name__)
 CORS(app)
 
 # Shared data store
 facilities_data = {}
+facilities_data = scrape_all_facilities()
 
-# Initialize the data manually
-
-def initialize_data():
-    global facilities_data
-    facilities_data = scrape_all_facilities()
-
-# Manually initialize data (called once when the app starts)
-initialize_data()
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({"message": "Welcome to the UT RecSports Scraper API!"})
 
 @app.route('/facilities', methods=['GET'])
 def get_facilities():
@@ -29,4 +25,4 @@ def scrape():
     return jsonify(facilities_data)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
