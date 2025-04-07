@@ -30,5 +30,9 @@ def scrape():
     facilities_data = scrape_all_facilities()
     return jsonify(facilities_data)
 
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({"message": "Welcome to the Gym Facilities API!"})
+
 if __name__ == "__main__":
     app.run(debug=False)  # Ensure debug is off for production
