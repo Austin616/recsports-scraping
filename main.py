@@ -1,18 +1,19 @@
-from flask import Flask, jsonify
-from flask_cors import CORS
-from scraper import scrape_all_facilities
-import os
-
 app = Flask(__name__)
 CORS(app)
 
+# Disable Flask debug mode in production
+app.config['DEBUG'] = False
+
 # Shared data store
 facilities_data = {}
-facilities_data = scrape_all_facilities()
 
-@app.route('/', methods=['GET'])
-def index():
-    return jsonify({"message": "Welcome to the UT RecSports Scraper API!"})
+# Initialize the data manually
+def initialize_data():
+    global facilities_data
+    facilities_data = scrape_all_facilities()
+
+# Manually initialize data (called once when the app starts)
+initialize_data()
 
 @app.route('/facilities', methods=['GET'])
 def get_facilities():
@@ -25,5 +26,4 @@ def scrape():
     return jsonify(facilities_data)
 
 if __name__ == "__main__":
-    # No need to run app here since Gunicorn will handle it
-    pass
+    app.run(debug=False)  # Ensure debug is off for production
